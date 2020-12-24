@@ -10,7 +10,7 @@
 	"DocsURL": "",
 	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/168a361cd05943358dff438115c5d1c2",
 	"SupportURL": "mailto:devtechsupport@logitech.com",
-	"EngineVersion": "4.20.0",
+	"EngineVersion": "4.25.0",
 	"CanContainContent": true,
 	"Installed": true,
 	"Modules": [

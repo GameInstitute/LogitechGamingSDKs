@@ -3,7 +3,6 @@
 #include "LogitechG.h"
 #include "LogitechGPrivatePCH.h"
 
-
 void FLogitechG::StartupModule()
 {
 	// This code will execute after your module is loaded into memory (but after global variables are initialized, of course.)

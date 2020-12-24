@@ -2,7 +2,10 @@
 
 #include "ILogitechG.h"
 #include "Runtime/Core/Public/Containers/UnrealString.h"
+#include "Windows/AllowWindowsPlatformTypes.h" 
 #include <map>
+#include <string>
+#include "Windows/HideWindowsPlatformTypes.h"  
 
 class FLogitechG : public ILogitechG
 {
@@ -11,8 +14,8 @@ public:
 	virtual void StartupModule() override;
 	virtual void ShutdownModule() override;
 
-            bool LedInit();
-            bool LedInitWithName(const FString name);
+    bool LedInit();
+    bool LedInitWithName(const FString name);
 	bool LedGetSdkVersion(int *majorNum, int *minorNum, int *buildNum);
 	bool LedGetConfigOptionNumber(const FString configPath, double *defaultValue);
 	bool LedGetConfigOptionBool(const FString configPath, bool *defaultValue);

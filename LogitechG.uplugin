@@ -1,0 +1,27 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.4.1",
+	"FriendlyName": "LogitechG SDKs Plugin",
+	"Description": "Support for the Logitech Gaming SDKs:\n- LED Illumination SDK\n- G-KEY Macro SDK\n- Arx Control SDK\n- GamePanel SDK\nFor more information on each SDK, please visit our website.",
+	"Category": "Input Devices",
+	"CreatedBy": "Logitech",
+	"CreatedByURL": "http://gaming.logitech.com/developers",
+	"DocsURL": "",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/168a361cd05943358dff438115c5d1c2",
+	"SupportURL": "mailto:devtechsupport@logitech.com",
+	"EngineVersion": "4.20.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "LogitechG",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Win32"
+			]
+		}
+	]
+}

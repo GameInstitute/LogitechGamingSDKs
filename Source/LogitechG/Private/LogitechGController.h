@@ -185,7 +185,7 @@ struct FControllerPropertiesData
 	}
 };
 
-UCLASS()
+UCLASS(Blueprintable,BlueprintType)
 class LOGITECHG_API ULogitechGController : public UObject
 {
 	GENERATED_BODY()

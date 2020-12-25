@@ -320,6 +320,7 @@ const int MODEL_G29 = 26;
 const int MODEL_G920 = 27;
 const int NUMBER_MODELS = 28;
 
+#define LOGITECHG_MODULE_NAME	TEXT("LogitechG")
 
 /**
  * The public interface to this module.  In most cases, this interface is only public to sibling modules
@@ -329,6 +330,11 @@ class ILogitechG : public IModuleInterface
 {
 
 public:
+	static FName GetModularFeatureName()
+	{
+		static FName FeatureName = FName(LOGITECHG_MODULE_NAME);
+		return FeatureName;
+	}
 
 	/**
 	 * Singleton-like access to this module's interface.  This is just for convenience!
